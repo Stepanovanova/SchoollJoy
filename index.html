@@ -16,32 +16,58 @@
        <nav class="header__menu>
         <ul class="menu">
              <li class="menu__item menu_item— active">
-                 <b><a class="menu__link" href="#">О школе</a></li></b>
+                 <b><a class="menu__link" href="aboutschool.html">О школе</a></li></b>
              <li class="menu__item">
-                 <b><a class="menu__link" href="#">Каталог</a></li></b>
+                 <b><a class="menu__link" href="catalog.html">Каталог</a></li></b>
              <li class="menu__item">
-                 <b><a class="menu__link" href="#">Предметы</a></li></b>
+                 <b><a class="menu__link" href="subjects.html">Предметы</a></li></b>
         </ul>
        </nav>
        <a class="header__button" href="login.html">Вход</a>
      </header>
-      
-      <form class="login__form" action="/">
-          <h1 class="form__title">Вход</h1>
-          <div class="form__group">
+
+    
+    <div class="form-container">
+      <form class="login__form" action=" post">
+          <b><h1 class="form__title">Вход</h1></b>
+          <div class="form-group">
              <label for="email">Email:</label>
-             <input type="email"  name="email" placeholder="email" required>
+             <input type="email" name="email" placeholder="Email" required>
              <label for="password">Пароль:</label>
-             <input type="password" name="password" placeholder="password" required>
+             <input type="password" name="password" placeholder="Пароль" required>
           </div>
              <input type="submit" value="Войти">
       </form>
+      
+     
+     <form action="register" action="post">
+         <b><h2>Регистрация</h2></b>
+       <div class="form-group">
+           <label for="reg_username">Имя пользователя:</label>
+           <input type="text" name="username" placeholder="Имя пользователя" required>
+       </div>
+       <div class="form-group">
+           <label for="reg_email">Email:</label>
+           <input type="email" name="email" placeholder="Email" required>
+       </div>
+        <div class="form-group">
+            <label for="grade">Класс:</label>
+            <input type="grade" name="grade" placeholder="Класс" required >
+        </div>
+        <div class="form-group">
+           <label for="reg_password">Пароль:</label>
+           <input type="password" name="password" placeholder="Пароль" required>
+        </div>
+        <input type="submit" value="Зарегистрироваться">
+     </form>
+    </div>
+      
 
      <Main class="Main">
 
         <section>
             <div class="news">
-            <h2 class="news__title">Новости</h2>
+            <b><h2 class="news__title">Новости</h2></b>
             <img class="images" src="images/banner1.jpg" alt="картинка" width="100" height="100">
             <img src="" alt="images/banner6.jpg" width="100" height="100">
             </div>
@@ -49,7 +75,7 @@
          
         <section>
             <div class="teachers">
-            <h2 class="teachers__title">Наши преподаватели</h2>
+            <b><h2 class="teachers__title">Наши преподаватели</h2></b>
                 
                 <div class="teachers__card"> 
                 <img class="teachers__image" src="images/teacher4.jpg" alt="фото" width="100" height="100">
@@ -81,8 +107,8 @@
 
         <section> 
             <div class="courses">
-            <h1 class="courses__title>КУРСЫ</h1>
-            <button class="btn__choose">Выбрать</button> 
+                <strong><h1 class="courses__title">Курсы</h1></strong>
+            <b><button class="btn__choose">Выбрать</button></b>
             </div>
         </section>
 
@@ -90,32 +116,32 @@
          
          <section>
             <div class=>
-              <h1>Часто задаваемые вопросы</h1>
+              <b><h1>Часто задаваемые вопросы</h1></b>
               <img src="images/banner4.jpg" alt="картинка" width="80" height="150">
                  
               <div class="faq__item">
-              <h2 class="faq__question">Как записаться?</h2>
+              <b><h2 class="faq__question">Как записаться?</h2></b>
                 <div class="faq__answer">
                 <p>Для записи необходимо пройти регистрацию, заполнив форму и связаться с администратором</p>
                 </div>
             </div>
 
               <div class="faq__item">
-              <h2 class="faq__question">Какие предметы входят в программу?</h2>
+              <b><h2 class="faq__question">Какие предметы входят в программу?</h2></b>
                 <div class="faq__answer">
                 <p>В нашу программу входят занятия по математике, русскому языку, литературному чтению и окружающему миру</p>
                 </div>
               </div>
 
               <div class="faq__item">
-              <h2 class="faq__question">Сколько длится занятие?</h2>
+              <b><h2 class="faq__question">Сколько длится занятие?</h2></b>
                 <div class="faq__answer">
                 <p>Занятия длятся 35-45 минут</p>
                 </div>
                </div>
 
               <div class="faq__item">
-              <h2 class="faq__question">Сколько стоит обучение?</h2>
+              <b><h2 class="faq__question">Сколько стоит обучение?</h2></b>
                 <div class="faq__answer">
                 <p>Стоиммость обучения зависит от количества выбранных предметов и количества занятий. Подроблую информацию можно найти в каталоге в строке "Стоимость"</p>
                 </div>
