@@ -14,33 +14,51 @@
     width: 100%;
 }
 
-.header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #CCCCFF;
-    padding: 20px;
-    text-align: center;
-    width: 100%;
+
+.header__menu {
+  background-color: #CCCCFF; 
+  padding: 15px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
 }
 
+.menu {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.menu__item {
+  margin-right: 20px;
+}
+
+.menu__item.active {
+  color: #FAEEDD; 
+}
+
+.menu__link {
+  text-decoration: none;
+  color: white; 
+  font-weight: bold;
+}
+
+.header__button {
+  background-color: #5D76CB; 
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 .header .logo {
     font-size: 24px;
     font-weight: bold;
 }
 
-.header .subtitle {
-    font-size: 14px;
-    margin-top: 10px;
-}
 
-.header input[type="text"] {
-    margin: 10px;
-    padding: 5px;
-    width: 150px;
-}
-
-.header .about,
 .header .login {
     background-color: #d9e9cc;
     border: 1px solid #c7e49e;
