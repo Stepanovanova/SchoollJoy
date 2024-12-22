@@ -5,12 +5,13 @@ box-sizing: border-box;
 }
 html,
 body {
-font-family: 'Arial', sans-serif;
+font-family: 'Montserrat', 'Arial', 'Monospace';
 font-size: 18px;
 line-height: 30px;
-color: #000000;
-background-color: #ffffff;
+color: #1B2631;
+background-color: #ADD8E6;
 overflow-x: hidden;
+  
 }
 img {
 display: block;
