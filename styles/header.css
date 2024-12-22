@@ -1,1 +1,146 @@
+/* style.css */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #CCCCFF;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .subtitle {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.header input[type="text"] {
+    margin: 10px;
+    padding: 5px;
+    width: 150px;
+}
+
+.header .about,
+.header .login {
+    background-color: #d9e9cc;
+    border: 1px solid #c7e49e;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.sidebar {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 200px;
+    background-color: #a2ee95;
+    padding: 20px;
+    text-align: left;
+}
+
+.sidebar h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.main-content {
+    margin-left: 220px;
+    width: 80%;
+}
+
+.theory-section,
+.test-prep,
+.independent-work,
+.teacher-option {
+    background-color: #b4e48e;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.theory-section h2,
+.test-prep h2,
+.independent-work h2,
+.teacher-option h2 {
+    margin-bottom: 10px;
+    color: #8cd481;
+}
+
+.class-buttons,
+.grade-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.class-buttons button,
+.grade-buttons button {
+    background-color: #c1e68e;
+    border: 1px solid #a8c080;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #87df7a;
+}
+
+.teacher-option input[type="text"] {
+    margin: 10px;
+    padding: 5px;
+    width: 120px;
+}
+
+.teacher-option button {
+    background-color: #c5e5a6;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 5px;
+}
+
+.footer {
+    background-color: #d8e8d1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 12px;
+}
+
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    color: #409632;
+    background-color: #e1e8d7;
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 50%;
+} 
+Header
