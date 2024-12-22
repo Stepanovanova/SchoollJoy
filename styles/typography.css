@@ -1,1 +1,24 @@
+/* Контейнер-обертка */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.button {
+    font-size: 19px;
+    font-weight: 600;
+    color: #fefeff;
+    border-radius: 16px;
+    background-color: #A6CAF0;
+    cursor: pointer;
+}
+
+.button--accent {
+    color: #fefeff;
+    background-color: #A6CAF0;
+}
+
+
+
 
