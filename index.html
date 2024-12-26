@@ -1,195 +1,177 @@
 <!DOCTYPE html>
 <html lang="ru">
-    
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Онлайн-школа</title>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Онлайн-школа</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
-    
-  <body>
-     <header class="header container">
-       <img  class="header__logo" src="images/logotyp.jpg" alt="Логотип" width="60" height="60">
-       <h1 class="header_»title">SchoolJoy</h1>
-         
-       <nav class="header__menu">
+
+<body>
+  <header class="header container">
+    <img class="header__logo" src="images/logotyp.jpg" alt="Логотип" width="80" height="80">
+    <h1 class="header_title">SchoolJoy</h1>
+
+    <div class="menu__link">
+      <nav class="header__menu">
         <ul class="menu">
-             <li class="menu__item menu_item— active">
-                 <a class="menu__link" href="aboutschool.html">О школе</a></li>
-             <li class="menu__item">
-                 <a class="menu__link" href="catalog.html">Каталог</a></li>
-             <li class="menu__item">
-                 <a class="menu__link" href="subjects.html">Предметы</a></li>
+          <li class="menu__item menu_item— active">
+            <a class="menu__link" href="aboutschool.html">О школе</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="catalog.html">Каталог</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="subjects.html">Предметы</a>
+          </li>
         </ul>
-       </nav>
-         
-     <div class="header__buttons">
-       <a class="header__button" href="login.html">Вход</a>
-       <a class="header__button" href="login.html">Регистрация</a>
-     </div>
-
+      </nav>
+       </div>
+      <div class="header__buttons">
+        <a class="header__button" href="login.html">Вход</a>
+        <a class="header__button" href="login.html">Регистрация</a>
+      </div>
     
-    <div class="form-container">
-      <form class="login__form" action="post">
-          <h1 class="form__title">Вход</h1>
-          <div class="form-group">
-             <input type="email" name="email" placeholder="Email" required>
-             <input type="password" name="password" placeholder="Пароль" required>
-          </div>
-             <input type="submit" value="Войти">
-      </form>
-      
-     
-     <form action="register">
-         <h2>Регистрация</h2>
-       <div class="form-group">
-           <input type="text" name="username" placeholder="Имя пользователя" required>
-           <input type="email" name="email" placeholder="Email" required>
-            <input type="text" name="grade" placeholder="Класс" required>
-           <input type="password" name="password" placeholder="Пароль" required>
+  </header>
+
+  <Main class="Main container">
+
+    <section>
+      <div class="news">
+        <h2 class="news__title">Новости</h2>
+        <img class="images" src="images/banner1.jpg" alt="картинка" width="100" height="100">
+      </div>
+    </section>
+ 
+    <section>
+      <div class="courses">
+        <h2 class="courses__title">Курсы</h2>
+        <button class="btn__choose">Выбрать</button>
+      </div>
+    </section>
+
+    <section>
+      <div class="teachers">
+        <h2 class="teachers__title">Наши преподаватели</h2>
+
+        <div class="teachers__card">
+          <img class="teachers__image" src="images/teacher4.jpg" alt="фото" width="100" height="100">
+          <p class="teachers__name">Стрельцов Антон Эдуардович</p>
+          <p class="teachers__desc">Учитель математики</p>
         </div>
-        <input type="submit" value="Зарегистрироваться">
-     </form>
-    </div>
-</header>  
 
-     <Main class="Main container">
+        <div class="teachers__card">
+          <img class="teachers__image" src="images/teacher1.jpg" alt="фото" width="100" height="100">
+          <p class="teachers__name">Кудрявцева Кристина Михайловна</p>
+          <p class="teachers__desc">Учитель русского языка</p>
+        </div>
 
-        <section>
-            <div class="news">
-            <h2 class="news__title">Новости</h2>
-            <img class="images" src="images/banner1.jpg" alt="картинка" width="100" height="100">
-            <img src="images/banner6.jpg" alt="картинка" width="100" height="100">
-            </div>
-        </section>
-         
-        <section>
-            <div class="teachers">
-            <h2 class="teachers__title">Наши преподаватели</h2>
-                
-                <div class="teachers__card"> 
-                 <img class="teachers__image" src="images/teacher4.jpg" alt="фото" width="100" height="100">
-                 <p class="teachers__name">Стрельцов Антон Эдуардович</p>
-                 <p class="teachers__desc">Учитель математики</p>
-                </div>
+        <div class="teachers__card">
+          <img class="teachers__image" src="images/teacher2.jpg" alt="фото" width="100" height="100">
+          <p class="teachers__name">Жарова Анастасия Геннадьевна</p>
+          <p class="teachers__desc">Учитель окружающего мира</p>
+        </div>
 
-                <div class="teachers__card">
-                 <img class="teachers__image" src="images/teacher1.jpg" alt="фото" width="100" height="100">
-                 <p class="teachers__name">Кудрявцева Кристина Михайловна</p>
-                 <p class="teachers__desc">Учитель русского языка</p>
-                </div>
+        <div class="teachers__card">
+          <img class="teachers__image" src="images/teacher3.jpg" alt="фото" width="100" height="100">
+          <p class="teachers__name">Королева Анна Петровна</p>
+          <p class="teachers__desc">Учитель литературного чтения</p>
+        </div>
 
-                <div class="teachers__card">
-                 <img class="teachers__image" src="images/teacher2.jpg" alt="фото" width="100" height="100">
-                 <p class="teachers__name">Жарова Анастасия Геннадьевна</p>
-                 <p class="teachers__desc">Учитель окружающего мира</p>
-                </div>
-
-                <div class="teachers__card">
-                 <img class="teachers__image" src="images/teacher3.jpg" alt="фото" width="100" height="100">
-                 <p class="teachers__name">Королева Анна Петровна</p>
-                 <p class="teachers__desc">Учитель литературного чтения</p>
-                </div>
-                
-            </div>
-        </section>
-         
-
-        <section> 
-            <div class="courses">
-                <h2 class="courses__title">Курсы</h2>
-            <button class="btn__choose">Выбрать</button>
-            </div>
-        </section>
+      </div>
+    </section>
 
 
-         
-         <section>
-            <div class="title">
-              <h2>Часто задаваемые вопросы</h2>
-              <img src="images/banner4.jpg" alt="картинка" width="80" height="150">
-                 
-              <div class="faq__item">
-              <h2 class="faq__question">Как записаться?</h2>
-                <div class="faq__answer">
-                <p>Для записи необходимо пройти регистрацию, заполнив форму и связаться с администратором</p>
-                </div>
-            </div>
 
-              <div class="faq__item">
-              <h2 class="faq__question">Какие предметы входят в программу?</h2>
-                <div class="faq__answer">
-                <p>В нашу программу входят занятия по матемаике, русскому языку, литературному чтению и окружающему миру</p>
-                </div>
-              </div>
+    <section>
+      <div class="title">
+        <h2>Часто задаваемые вопросы</h2>
+        <img src="images/banner4.jpg" alt="картинка" width="80" height="150">
 
-              <div class="faq__item">
-              <h2 class="faq__question">Сколько длится занятие?</h2>
-                <div class="faq__answer">
-                <p>Занятия длятся 35-45 минут</p>
-                </div>
-               </div>
-
-              <div class="faq__item">
-              <h2 class="faq__question">Сколько стоит обучение?</h2>
-                <div class="faq__answer">
-                <p>Стоиммость обучения зависит от количества выбранных предметов и количества занятий. Более подробную информацию можно найти в каталоге в строке "Стоимость"</p>
-                </div>
-               </div>
+        <div class="faq__item">
+          <h2 class="faq__question">Как записаться?</h2>
+          <div class="faq__answer">
+            <p>Для записи необходимо пройти регистрацию, заполнив форму и связаться с администратором</p>
           </div>
-        </section>
+        </div>
+
+        <div class="faq__item">
+          <h2 class="faq__question">Какие предметы входят в программу?</h2>
+          <div class="faq__answer">
+            <p>В нашу программу входят занятия по матемаике, русскому языку, литературному чтению и окружающему миру</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h2 class="faq__question">Сколько длится занятие?</h2>
+          <div class="faq__answer">
+            <p>Занятия длятся 35-45 минут</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h2 class="faq__question">Сколько стоит обучение?</h2>
+          <div class="faq__answer">
+            <p>Стоимость обучения зависит от количества выбранных предметов и количества занятий. Более подробную
+              информацию можно найти в каталоге в строке "Стоимость"</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
-         
-        <section>
-           <img src="images/logotyp.jpg" alt="Логотип" width="50" height="50">
-            <h2>SchoolJoy</h2>
-            
-            <div class="other__item">
-                <h3>Обучение</h3>
-                <p>Информация о школе</p>
-                 <p>Форматы обучения</p>
-                 <p>Как поступить в школу</p>
-                 <p>Аттестация</p>
-            </div>
 
-            <div>
-                <h3>Мы в соцсетях</h3>
-                <div class="social-icons">
-                  <a href="#" target="_blank" aria-label="Telegram">
-                  <img src="logo_tg.svg" alt="Telegram" width="50" height="50">
-                  </a>
+    <section>
+      <img src="images/logotyp.jpg" alt="Логотип" width="50" height="50">
+      <h2>SchoolJoy</h2>
 
-                  <a href="#" target="_blank" aria-label="ВКонтакте">
-                  <img src="logo_vk.svg" alt="ВКонтакте" width="50" height="50">
-                  </a>
-                </div>
-            </div>
-        </section>
-     </Main>
+      <div class="other__item">
+        <h3>Обучение</h3>
+        <p>Информация о школе</p>
+        <p>Форматы обучения</p>
+        <p>Как поступить в школу</p>
+        <p>Аттестация</p>
+      </div>
 
-      
-     <footer class="footer container">
-         <p class="copyright">Сайт создан Степановой Татьяной группа НК-35</p>
-         <h2 class="site__title">SchoolJoy</h2>
+      <div>
+        <h3>Мы в соцсетях</h3>
+        <div class="social-icons">
+          <a href="#" target="_blank" aria-label="Telegram">
+            <img src="logo_tg.svg" alt="Telegram" width="50" height="50">
+          </a>
 
-         <div class="links">
-             <ul class="legal__links">
-               <li><a href="#">Политика конфиденциальности</a></li>
-               <li><a href="#">Пользовательское соглашение</a></li>
-               <li><a href="#">Сведения об образовантельной организации</a></li>
-               <li><a href="#">Карта сайта</a></li>
-             </ul>
-         </div>
+          <a href="#" target="_blank" aria-label="ВКонтакте">
+            <img src="logo_vk.svg" alt="ВКонтакте" width="50" height="50">
+          </a>
+        </div>
+      </div>
+    </section>
+  </Main>
 
-         <div class="contacts__info">
-          <h3>Контактная информация</h3>
-            <p>Email: <a href="mailto:support@Schooljoy.com">support@SchoolJoy.com</a></p>
-            <p>Телефон: <a href="tel:+0123456789">+0 (123) 456-789</a></p>
-         </div>
-     </footer>
-  </body>
+
+  <footer class="footer container">
+
+    <h2 class="site__title">SchoolJoy</h2>
+
+    <div class="links">
+      <ul class="legal__links">
+        <li><a href="#">Политика конфиденциальности</a></li>
+        <li><a href="#">Пользовательское соглашение</a></li>
+        <li><a href="#">Сведения об образовантельной организации</a></li>
+        <li><a href="#">Карта сайта</a></li>
+      </ul>
+    </div>
+
+    <div class="contacts__info">
+      <h3>Контактная информация</h3>
+      <p>Email: <a href="mailto:support@Schooljoy.com">support@SchoolJoy.com</a></p>
+      <p>Телефон: <a href="tel:+0123456789">+0 (123) 456-789</a></p>
+    </div>
+    <p class="copyright">Сайт создан Степановой Татьяной группа НК-35</p>
+  </footer>
+</body>
+
 </html>
