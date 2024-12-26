@@ -10,15 +10,12 @@
     font-weight: 600;
     color: #fefeff;
     border-radius: 16px;
-    background-color: #A6CAF0;
+    background-color: #ffffff;
     cursor: pointer;
 }
 
 .button--accent {
     color: #fefeff;
-    background-color: #A6CAF0;
+    background-color: #ffffff;
 }
-
-
-
 
