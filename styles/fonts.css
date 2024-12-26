@@ -16,7 +16,44 @@
     font-display: swap;
 }
 
-/* Italic */
+/*italic*/
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/fonts/GilroyMediumItalic.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*Medium*/
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/fonts/GilroyMedium.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*Regular*/
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/fonts/GilroyRegular.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*Bold*/
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/fonts/GilroyBold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Italic */ 
 @font-face {
     font-family: 'Montserrat';
     src: url('/fonts/Montserrat-Italic.ttf') format('ttf');
@@ -33,4 +70,3 @@
     font-style: normal;
     font-display: swap;
 }
-
