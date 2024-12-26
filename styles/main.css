@@ -1,66 +1,155 @@
 
 body {
-  font-family: Montserrat; 
+  font-family: Montserrat;
   line-height: 1.6;
-  margin: 20px; 
+  margin: 20px;
+}
+
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+section:nth-child(1) {
+  border-radius: 15px;
+  margin-top: 30px;
+  background-color: #e04686;
+}
+
+section:nth-child(2) {
+  border-radius: 15px;
+  background-color: #e07785;
+}
+
+section:nth-child(3) {
+  border-radius: 15px;
+  background-color: #ebb3d8;
+}
+
+section:nth-child(4) {
+  border-radius: 15px;
+  background-color: #f09fbe;
+}
+
+section:nth-child(5) {
+  border-radius: 15px;
+  background-color: #f0aeca;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news__title {
+  margin-bottom: 10px;
+}
+
+.news>img {
+  margin: 5px;
+}
+
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.courses__title {
+  margin-bottom: 20px;
+}
+
+.btn__choose {
+  padding: 10px 20px;
+  background-color: #c40d53;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn__choose:hover {
+  background-color: #860a34;
 }
 
 section {
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
 
 h2 {
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 
 .news {
-  display: flex; 
-  justify-content: space-between; 
+  display: flex;
+  justify-content: space-between;
 }
 
 .news img {
-  margin-right: 10px; 
-  max-width: 100px; 
-  height: auto; 
+  margin-right: 10px;
+  width: 50%;
+  height: auto;
 }
 
 
 .teachers {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: space-between;
+  padding: 20px;
 }
 
-.teachers__card {
-  width: 350px; 
-  padding: 15px;
-  margin-bottom: 20px;
-  text-align: center; 
-  box-shadow: 1px 2px 20px 5px #d7d7d7;
-  display: flex;
-  flex-direction: column;
-}
 
 .teachers__image {
- width: 100%;
- height: 300px;
- object-fit: cover;
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  justify-content: center;
 }
 
 .teachers__name {
- margin-top: 15px;
- margin-bottom: 15px;
- font-size: 20px;
- font-weight: bold;
- text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .teachers__desc {
- margin-top: 0;
- margin-bottom: 15px;
- font-size: 14px;
- font-style: italic;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-style: italic;
+  color: #000000;
+}
+
+
+.teachers__title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.teachers__card {
+  border: 3px solid #e92b74;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 2px 2px 5px rgba(68, 66, 66, 0.479);
+  transform: scale3d(1.01);
+}
+
+.teachers__card:hover {
+  transform: scale(1.05);
 }
 
 .courses {
@@ -68,7 +157,7 @@ h2 {
 }
 
 .btn__choose {
-  background-color: #A6CAF0; 
+  background-color: #A6CAF0;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -84,7 +173,7 @@ h2 {
 
 .faq__item {
   margin-bottom: 20px;
-  border-bottom: 1px solid #ccc; 
+  border-bottom: 1px solid #740429;
   padding-bottom: 10px;
 }
 
@@ -97,59 +186,57 @@ h2 {
 }
 
 .title img {
-  display: block; 
-  margin: 0 auto; 
+  display: block;
+  margin: 0 auto;
   margin-bottom: 10px;
 }
 
 section {
-  display: flex; 
-  flex-wrap: wrap; 
-  justify-content: space-around; 
-  align-items: center; 
-  padding: 20px; 
-  margin-bottom: 30px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 30px;
 }
 
-img[alt="Логотип"] { 
-  max-width: 50px; 
-  max-height: 50px; 
-  margin-right: 20px; 
+img[alt="Логотип"] {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 20px;
 }
 
 h2 {
-  font-size: 2em; 
+  font-size: 2em;
   margin-bottom: 10px;
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 
 .other__item {
-  flex: 1; 
+  flex: 1;
   margin-right: 20px;
 }
 
 .other__item h3 {
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
   font-weight: bold;
 }
 
 .other__item p {
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
 }
 
 .social-icons {
-  display: flex; 
-  gap: 10px; 
+  display: flex;
+  gap: 10px;
 }
 
 .social-icons a {
-  display: block; 
-  text-decoration: none; 
+  display: block;
+  text-decoration: none;
 }
 
 .social-icons img {
   max-width: 50px;
   max-height: 50px;
 }
-
-
