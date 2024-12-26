@@ -1,6 +1,8 @@
 
 body {
-  font-family: Montserrat;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 600;
   line-height: 1.6;
   margin: 20px;
 }
@@ -14,12 +16,12 @@ section {
 section:nth-child(1) {
   border-radius: 15px;
   margin-top: 30px;
-  background-color: #e04686;
+  background-color: #df6497;
 }
 
 section:nth-child(2) {
   border-radius: 15px;
-  background-color: #e07785;
+  background-color: #e68693;
 }
 
 section:nth-child(3) {
@@ -51,37 +53,18 @@ section:nth-child(5) {
   margin: 5px;
 }
 
-
-.courses {
-  display: flex;
-  flex-direction: column;
-  align-items: center
-}
-
-.courses__title {
-  margin-bottom: 20px;
-}
-
 .btn__choose {
   padding: 10px 20px;
   background-color: #c40d53;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .btn__choose:hover {
   background-color: #860a34;
-}
-
-section {
-  margin-bottom: 30px;
-}
-
-h2 {
-  margin-bottom: 10px;
 }
 
 
@@ -94,6 +77,7 @@ h2 {
   margin-right: 10px;
   width: 50%;
   height: auto;
+  border-radius: 15px;
 }
 
 
@@ -104,12 +88,11 @@ h2 {
   padding: 20px;
 }
 
-
 .teachers__image {
-  width: 80%;
+  width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-bottom: 10px;
   justify-content: center;
 }
@@ -125,7 +108,7 @@ h2 {
 .teachers__desc {
   margin-top: 0;
   margin-bottom: 15px;
-  font-size: 14px;
+  font-size: 20px;
   font-style: italic;
   color: #000000;
 }
@@ -144,7 +127,7 @@ h2 {
   text-align: center;
   width: 300px;
   margin: 10px;
-  box-shadow: 2px 2px 5px rgba(68, 66, 66, 0.479);
+  box-shadow: 4px 4px 7px rgba(58, 57, 57, 0.479);
   transform: scale3d(1.01);
 }
 
@@ -154,16 +137,54 @@ h2 {
 
 .courses {
   text-align: center;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-.btn__choose {
-  background-color: #A6CAF0;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+
+.courses__card {
+  border: 3px solid #88042c;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  box-shadow: 4px 4px 7px rgba(58, 57, 57, 0.479);
+  transform: scale3d(1.1);
 }
+
+.courses__image {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.courses__name {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.courses__title {
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.courses__card:hover{
+  transform: scale(1.05);
+}
+
 
 
 .title {
@@ -188,7 +209,13 @@ h2 {
 .title img {
   display: block;
   margin: 0 auto;
+  border-radius: 10px;
   margin-bottom: 10px;
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  justify-content: center;
 }
 
 section {
