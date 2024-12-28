@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -34,6 +35,32 @@
       <a class="header__button" href="login.html">Вход</a>
       <a class="header__button" href="login.html">Регистрация</a>
     </div>
+
+<div class="form-container">
+    <div>
+      <form class="login__form" action="post">
+          <h1 class="form__title">Вход</h1>
+          <div class="form-group">
+             <input type="email" name="email" placeholder="Email" required>
+             <input type="password" name="password" placeholder="Пароль" required>
+          </div>
+             <input type="submit" value="Войти">
+      </form>
+    </div>
+      
+    <div>
+     <form action="register">
+         <h2>Регистрация</h2>
+       <div class="form-group">
+           <input type="text" name="username" placeholder="Имя пользователя" required>
+           <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="grade" placeholder="Класс" required>
+           <input type="password" name="password" placeholder="Пароль" required>
+        </div>
+        <input type="submit" value="Зарегистрироваться">
+     </form>
+    </div>
+</div>
 
   </header>
 
